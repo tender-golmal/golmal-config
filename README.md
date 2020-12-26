@@ -1,0 +1,2 @@
+# golmal-config
+Golmal Configuration
