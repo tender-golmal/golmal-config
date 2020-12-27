@@ -1,0 +1,71 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: git@github.com:sushant380/golmal-config.git
+          strict-host-key-checking: false
+          searchPaths:
+            - "{profile}/{application}"
+            - "{profile}"
+          host-key: AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
+          host-key-algorithm: ssh-rsa
+          ignore-local-ssh-settings: true
+          force-pull: true
+          privateKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            Proc-Type: 4,ENCRYPTED
+            DEK-Info: AES-128-CBC,ACBC26D9F6DE807089FB8C90CABD50E5
+
+            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
+            -----END RSA PRIVATE KEY-----
+          passphrase: Susayi@119
