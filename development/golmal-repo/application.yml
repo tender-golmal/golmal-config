@@ -3,6 +3,6 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      authenticationDatabase: golmaldb
+      database: golmaldb
       username: admin
       password: admin
