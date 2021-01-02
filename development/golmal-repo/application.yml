@@ -3,3 +3,4 @@ spring:
     mongodb:
       host: golmal-mongodb
       database: golmaldb
+      port: 27017
