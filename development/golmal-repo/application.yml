@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://golmal-mongodb:27017/golmaldb/?ssl=true&ssl_ca_certs=cert
+      uri: mongodb://golmal-mongodb:27017/golmaldb?ssl=true&ssl_ca_certs=cert
