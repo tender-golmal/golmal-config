@@ -1,0 +1,5 @@
+golmal:
+  login:
+    jwt:
+      jwtSecret: dsfs4rtfsvr
+      jwtExpirationMs: 86400000
