@@ -3,3 +3,11 @@ golmal:
     jwt:
       jwtSecret: dsfs4rtfsvr
       jwtExpirationMs: 86400000
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 561426780955-nbvh1m5lgl3sf2ovtm5t2flttbsagco9.apps.googleusercontent.com
+            clientSecret: yF6IaQXVfs6hnU5FCaQRlw6i
